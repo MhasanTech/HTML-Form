@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U.S. Stanadrad Certificate if Live Birth</title>
+</head>
+<body>
+<form action="process.php" method="POST" target="_self">
+    <fieldset>
+        <legend>U.S. Stanadrad Certificate if Live Birth</legend> <br>
+        <fieldset>
+        <legend>Child's Details</legend>
+            <label for="firstName">First Name</label> <br>
+            <input type="text" name="firstName" id="firstName"><br>
+            <label for="middleName">Middle Name</label> <br>
+            <input type="text" name="middletName" id="middleName"> <br>
+            <label for="lastName">Last Name</label> <br>
+            <input type="text" name="lastName" id="lastName"> <br>
+            <label for="suffix">Suffix</label> <br>
+            <input type="text" name="suffix" id="suffix"> <br>
+            <label for="ToB">Time of Birth</label> <br>
+            <input type="time" name="usr_time" id="ToB"><br>
+            <label for="sex">Sex</label> <br>
+            <select name="Sex" id="sex">
+            <option value="male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+            </select> <br>
+            <label for="DoB">Date of Birth(Day/Mo/Yr)</label> <br>
+            <input type="date" name="bday" id="DoB"> <br>
+            <label for="facName">Facility Name(If not institution, give street and number)</label> <br>
+            <input type="text" name="name" id="facName"> <br>
+            <label for="Loc">City, Town or Location of Birth</label> <br>
+            <input type="text" name="name" id="Loc"> <br>
+            <label for="CoB">Country of Birth</label> <br>
+            <input type="text" name="countryName" id="CoB"> <br>
+        </fieldset>
+        <br>
+        <fieldset>
+        <legend>Mother's Details</legend>
+            <div>
+            Mother's current Legal Name <br> <br>
+            <label for="fName">First Name</label> <br>
+            <input type="text" name="firstName" id="fName"><br>
+            <label for="mName">Middle Name</label> <br>
+            <input type="text" name="middletName" id="mName"> <br>
+            <label for="lName">Last Name</label> <br>
+            <input type="text" name="lastName" id="lName"> <br>
+            <label for="suffix">Suffix</label> <br>
+            <input type="text" name="suffix" id="suffix"> <br>
+            <label for="DoB">Date of Birth(Day/Mo/Yr)</label> <br>
+            <input type="date" name="bday" id="DoB"> <br>
+            </div>
+            <br>
+            <div>
+            Mother's Name Prior to First Marriage <br> <br>
+            <label for="fName">First Name</label> <br>
+            <input type="text" name="firstName" id="fName"><br>
+            <label for="mName">Middle Name</label> <br>
+            <input type="text" name="middletName" id="mName"> <br>
+            <label for="lName">Last Name</label> <br>
+            <input type="text" name="lastName" id="lName"> <br>
+            <label for="Suffix">Suffix</label> <br>
+            <input type="text" name="suffix" id="suffix"> <br>
+            <label for="bPlace">Birthplace(State, Territory, or Foreign Country)</label> <br>
+            <input type="text" name=birthPlace id="bPlace"><br>
+            <label for="residenceOfM">Residence of Mother-state</label> <br>
+            <input type="text" name="residence" id="residenceOfM"><br>
+            <label for="Country">Country</label> <br>
+            <input type="text" name="Country" id="Country"><br>
+            <label for="Loc">City, Town, or Location</label> <br>
+            <input type="text" name="Location" id="Loc"><br>
+            <label for="street&n">Street and Number</label> <br>
+            <input type="number" name="streetNumber" id="Street&n"><br>
+            <label for="AppartmentN">Apartment No.</label> <br>
+            <input type="number" name="apartmentNumber" id="AppartmentN"><br>
+            <label for="zip">Zip Code</label> <br>
+            <input type="number" name="number" id="zip"><br>
+            <label>Inside City Limits?</label> <br>
+            <input type="radio" name="yesNo" value="male" > Male
+            <input type="radio" name="yesNo" value="female"> Female<br>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Father's Details</legend>
+            <p>FATHERS CURRENT LEGAL NAME</p>
+            <label for="fName">First Name</label> <br>
+            <input type="text" name="firstName" id="fName"><br>
+            <label for="mName">Middle Name</label> <br>
+            <input type="text" name="middletName" id="mName"> <br>
+            <label for="lName">Last Name</label> <br>
+            <input type="text" name="lastName" id="lName"> <br>
+            <label for="Suffix">Suffix</label> <br>
+            <input type="text" name="suffix" id="Suffix"> <br>
+            <label for="DoB">Date of Birth(Day/Mo/Yr)</label> <br>
+            <input type="date" name="bday" id="DoB"> <br>
+            <label for="bPlace">Birthplace(State, Territory, or Foreign Country)</label> <br>
+            <input type="text" name=birthPlace id="bPlace"><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Certifier Details</legend> <br>
+            <label for="cName">Certifier's Name</label> <br>
+            <input type="text" name="tName" id="cName"> <br>
+            <label>Title</label> <br>
+            <input type="checkbox" name="title2" value="MD"> MD 
+            <input type="checkbox" name="title3" value="DO"> DO
+            <input type="checkbox" name="title4" value="HOSPITAL ADMIN"> HOSPITAL ADMIN
+            <input type="checkbox" name="title5" value="CNM/CM"> CNM/CM
+            <input type="checkbox" name="title6" value="OTHER MIDWIFE"> OTHER MIDWIFE
+            <input type="checkbox" name="title7" value="OTHER"> OTHER (specify)
+            <input type="text" name="title8"><br>
+            <label for="DoC">Date Certified(Day/Mo/Yr)</label> <br>
+            <input type="date" name="certifiedDate" id="DoC"> <br>
+            <label for="DoR">Date Field by Register(Day/Mo/Yr)</label> <br>
+            <input type="date" name="registerDate" id="DoR"> <br>
+            <label for="tel">Telephone</label> <br>
+            <input type="number" name="telNumber" id="tel"> <br>
+            <label for="ur">UR#</label> <br>
+            <input type="number" name="UR#" id="ur"> <br>
+            <label for="refHospital">Reffering Hospital</label> <br>
+            <input type="text" name="hospitalName" id="refHospital"> <br>
+        </fieldset>       
+</fieldset>
+</form>
+</body>
+</html>
